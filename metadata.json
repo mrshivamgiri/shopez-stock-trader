@@ -1,0 +1,5 @@
+{
+  "name": "ShopEZ Stock Trader",
+  "description": "A full-stack stock trading platform with real-time market trends, portfolio management, and secure authentication.",
+  "requestFramePermissions": []
+}
