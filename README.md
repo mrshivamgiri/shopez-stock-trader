@@ -1,104 +1,68 @@
-# Shopez Stock Trader
+<div align="center">
 
-This repository contains the **Shopez Stock Trader** application, a React/Vite based web interface for tracking and trading stocks. It includes authentication, real-time charts, user portfolios, and an admin dashboard.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,0,20&height=160&section=header&text=shopez-stock-trader&fontSize=34&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Real-Time%20Stock%20Trading%20Simulator&descAlignY=55&descSize=16" width="100%"/>
 
-## 🚀 Features
+# 💹 shopez-stock-trader
 
-- User registration and login with context-based auth
-- Dashboard displaying stock quotes and portfolio summary
-- Interactive stock charts using Chart.js
-- Admin panel for managing users and monitoring activity
-- Responsive layout built with TypeScript and React
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 
-## 🛠️ Getting Started
+> **Real-time stock trading simulator** — track, analyze & simulate trades with live market data
 
-### Prerequisites
+🌐 **Live Demo:** [shopez-stock-trader.vercel.app](https://shopez-stock-trader.vercel.app)
 
-- Node.js (>=16) and npm
-- Git
-
-### Installation
-
-```bash
-# clone the repo
-git clone https://github.com/mrshivamgiri/shopez-stock-trader.git
-cd shopez-stock-trader
-
-# install dependencies
-npm install
-```
-
-### Running Locally
-
-```bash
-# start development server
-npm run dev
-```
-
-Visit `http://localhost:5173` in your browser.
-
-### Building for Production
-
-```bash
-npm run build
-npm run preview
-```
-
-## 📁 Project Structure
-
-```
-src/
-├── components/        # reusable UI components
-├── context/           # React context (AuthContext etc.)
-├── lib/               # utility functions
-├── pages/             # page-level components (Dashboard, Login, etc.)
-└── App.tsx            # root component
-```
-
-## 🔧 Configuration
-
-- `server.ts` contains the Express server for API endpoints
-- `vite.config.ts` for Vite configuration
-- `.env.example` includes environment variable templates
-
-## ✅ Contributing
-
-Pull requests are welcome! Please open an issue first to discuss your changes.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+</div>
 
 ---
 
-## 🏷️ Badges
+## 🚀 Features
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mrshivamgiri/shopez-stock-trader)
-![License](https://img.shields.io/github/license/mrshivamgiri/shopez-stock-trader)
+- 📈 **Real-time stock price** tracking and monitoring
+- 💰 **Paper trading** — simulate trades without real money
+- 📊 **Interactive charts** and market data visualization
+- 🔔 **Price alerts** and portfolio tracking
+- ⚡ **Lightning fast** React frontend with TypeScript
 
-## ⚙️ NPM Scripts
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|-----------|
+| Frontend | React, TypeScript, TailwindCSS |
+| Backend | Node.js, Express |
+| Deployment | Vercel |
+| Build Tool | Vite |
+
+---
+
+## ⚙️ Getting Started
 
 ```bash
-npm run dev       # start vite development server
-npm run build     # compile for production
-npm run preview   # serve built output locally
-npm run lint      # run linter (if configured)
+# Clone the repository
+git clone https://github.com/mrshivamgiri/shopez-stock-trader.git
+cd shopez-stock-trader
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Run development server
+npm run dev
 ```
 
-## 🔐 Environment Variables
+---
 
-Copy `.env.example` to `.env` and fill in your values:
+<div align="center">
 
-```
-PORT=3000
-API_URL=http://localhost:3000/api
-JWT_SECRET=your_secret_key
-```
+**⭐ Star this repo if you find it helpful!**
 
-## 💡 Acknowledgments
+**Made with ❤️ by [Shivam Giri](https://github.com/mrshivamgiri)**
 
-- Built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/)
-- Charting powered by [Chart.js](https://www.chartjs.org/)
-- Inspired by stock tracking apps and online trading platforms
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,0,20&height=80&section=footer" width="100%"/>
 
-Feel free to file issues or suggest improvements on GitHub!
+</div>
